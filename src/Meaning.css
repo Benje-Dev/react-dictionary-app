@@ -1,0 +1,20 @@
+.Meaning h3 {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .Example {
+  font-style: italic;
+  font-size: 15px;
+  opacity: 0.9;
+  margin-left: 15px;
+}
+
+.Meaning .Synonyms {
+  margin-left: 25px;
+  padding: 0;
+}
+.Meaning .Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+}

@@ -1,25 +1,29 @@
-.App-header {
-    margin: 30px 0;
+.App {
+  width: 70%;
+  margin: 0 auto
 }
 
+
+.App-header {
+  margin: 30px 0;
+}
 
 .App-logo {
-
-    max-width: 200px;
-    display: block;
-    margin: 0 auto;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
-.footer {
-  margin: 200px auto;
+.App .footer {
+  margin: 70px auto;
   width: 75%;
-  color: #2c423f;
+  color: rgba(157, 145, 163, 1);
   text-align: center;
   margin-bottom: 100px;
 }
 .footer-link {
-  color: rgba(245, 141, 8, 0.8)
+  color: rgba(245, 141, 8, 0.8);
 }
 .footer-link:hover {
-  color: rgba(245, 141, 8, 1)
+  color: rgba(245, 141, 8, 1);
 }

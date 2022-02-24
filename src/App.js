@@ -8,10 +8,10 @@ export default function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-<main>
-<Dictionary />
 
-</main>
+      <main>
+        <Dictionary defaultKeyword="sunset" />
+      </main>
 
       <footer className="footer">
         <a
