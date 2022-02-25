@@ -1,12 +1,18 @@
-import logo from "./Search_logo.png";
+import logo from "./Search_logo1.svg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header row">
+        <div className="col-1"></div>
+        <div className="col-4">
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
+        <div className="col-5 question">
+          <h1>What are you searching for?</h1>
+        </div>
       </header>
 
       <main>

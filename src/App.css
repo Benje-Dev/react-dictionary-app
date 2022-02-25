@@ -10,8 +10,16 @@
 
 .App-logo {
   max-width: 200px;
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  /* margin: 0 auto; */
+}
+
+.App .question {
+display: inline;
+font-family: 'Pacifico', cursive;
+padding: 20px 0px 0px 30px;
+
+color: rgba(157, 145, 163, 1);
 }
 
 .App .footer {
