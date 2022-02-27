@@ -7,10 +7,10 @@ export default function App() {
     <div className="App">
       <header className="App-header row">
         <div className="col-1"></div>
-        <div className="col-4">
+        <div className="col-3">
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <div className="col-5 question">
+        <div className="col-6 question">
           <h1>What are you searching for?</h1>
         </div>
       </header>

@@ -1,5 +1,5 @@
 .App {
-  width: 70%;
+  max-width: 70%;
   margin: 0 auto
 }
 
@@ -17,7 +17,7 @@
 .App .question {
 display: inline;
 font-family: 'Pacifico', cursive;
-padding: 20px 0px 0px 30px;
+padding: 35px 0px 0px 30px;
 
 color: rgba(157, 145, 163, 1);
 }
